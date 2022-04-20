@@ -1,0 +1,16 @@
+section{
+      width: 75vw;
+      border: 20px solid #ccc;
+      padding: 16px;
+      margin: 20px auto;
+}
+img{
+    /* Image ko left me kr dega yh. Normal flow se bahar chla jaata hai. */
+    /* float: left; */
+    float: right;
+    width: 400px;
+}
+/* float ke effect ko khatam kr dega.  */
+.para{
+    clear: right;
+}
